@@ -8,7 +8,12 @@ const useStyles = makeStyles((theme) => ({
         position: "fixed",
         bottom: 5,
         right: 0,
-        marginRight: "30px",
+        marginRight: "25px",
+        marginBottom: "10px",
+        [theme.breakpoints.down("md")]: {
+            marginBottom: "50px",
+            marginRight: "10px"
+        }
 
     },
     icon: {

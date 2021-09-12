@@ -9,6 +9,9 @@ const useStyles = makeStyles((theme) => ({
     },
     sortContainer: {
         cursor: "pointer"
+    },
+    tablePage: {
+        color: "#FFF",
     }
 }));
 
@@ -71,7 +74,10 @@ export default function useTable() {
 
         return (
             <TablePagination
-                className={classes.tableText}
+                classes={{
+                    root: classes.tablePage,
+                    selectIcon: classes.tablePage,
+                }}
                 rowsPerPageOptions={pageOption}
                 component="div"
                 count={counts.length}
@@ -90,6 +96,4 @@ export default function useTable() {
         rowsPerPage,
         TablePage
     }
-
-
 }
