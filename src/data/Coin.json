@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Coin",
+    "id": "name"
+  },
+  {
+    "name": "Price",
+    "id": "current_price"
+  },
+  {
+    "name": "24h",
+    "id": "price_change_percentage_24h"
+  },
+  {
+    "name": "24h Volume",
+    "id": "total_volume"
+  },
+  {
+    "name": "Market Cap",
+    "id": "market_cap"
+  }
+]

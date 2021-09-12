@@ -1,0 +1,18 @@
+[
+  {
+    "name": "#",
+    "id": "trust_score_rank"
+  },
+  {
+    "name": "Name",
+    "id": "name"
+  },
+  {
+    "name": "Trust Score",
+    "id": "trust_score"
+  },
+  {
+    "name": "Year Established",
+    "id": "year_established"
+  }
+]
