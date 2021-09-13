@@ -52,7 +52,7 @@ const Finance = () => {
                         <TableBody>
                             {orderBy(finances, columnToSort, sortDirection).slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((row) => (
 
-                                <TableRow key={row.id} onClick={() => handleClick(row.website_url)} className={classes.tableRow}>
+                                <TableRow key={row.name} onClick={() => handleClick(row.website_url)} className={classes.tableRow}>
                                     <TableCell className={classes.tableText}>{row.name}</TableCell>
                                     <TableCell className={classes.tableText}>{row.category}</TableCell>
                                 </TableRow>

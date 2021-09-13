@@ -5,10 +5,10 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     tableText: {
-        color: "#FFF"
+        color: "#FFF",
     },
     sortContainer: {
-        cursor: "pointer"
+        cursor: "pointer",
     },
     tablePage: {
         color: "#FFF",
@@ -28,7 +28,7 @@ export default function useTable() {
 
     const classes = useStyles();
 
-    const TableHeader = React.memo(({ header }) => {
+    const TableHeader = ({ header }) => {
         const handleSort = (columnName) => {
             setColumnToSort(columnName);
             setSortDirection(
@@ -58,9 +58,7 @@ export default function useTable() {
                 </TableRow>
             </TableHead>
         )
-    })
-
-
+    }
 
     const TablePage = React.memo(({ counts, pageOption }) => {
         const handleChangePage = (event, newPage) => {

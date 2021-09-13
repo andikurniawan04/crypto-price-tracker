@@ -90,4 +90,4 @@ const Coin = () => {
   );
 };
 
-export default React.memo(Coin);
+export default Coin;

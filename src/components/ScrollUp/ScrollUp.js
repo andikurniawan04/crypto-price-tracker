@@ -43,7 +43,6 @@ const ScrollUp = ({ showScroll }) => {
     }
 
     useEffect(() => {
-        console.log(show);
         if (showScroll) {
             window.addEventListener("scroll", handleScroll)
             return () => window.removeEventListener("scroll", handleScroll)
