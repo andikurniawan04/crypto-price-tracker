@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Cryptcoin
+
+# [Live Site](https://crypto-price21.herokuapp.com/)
+
+![Cryptocoin](https://user-images.githubusercontent.com/65803684/133204165-6c8dd785-9fd4-4925-8b81-e6d6266104de.png)
+
+## Project Description
+Cryptcoin is web where you can track cryptocurency detail data, like price of crypto,price change percentage, and etc more.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
