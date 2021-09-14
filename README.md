@@ -1,6 +1,6 @@
 # Cryptcoin
 
-# [Live Site](https://crypto-price21.herokuapp.com/)
+### [Live Site](https://crypto-price21.herokuapp.com/)
 
 ![Cryptocoin](https://user-images.githubusercontent.com/65803684/133204165-6c8dd785-9fd4-4925-8b81-e6d6266104de.png)
 
